@@ -8,7 +8,7 @@ codeFilePath = os.path.realpath(__file__)
 parentFilePath = os.path.abspath(os.path.join(codeFilePath,os.pardir))
 jsonFilePath = os.path.join(parentFilePath,"values.json")
 
-with open("values.json") as file:
+with open(jsonFilePath) as file:
     d = json.load(file)
 
 for key,value in d.items():
@@ -82,5 +82,5 @@ with open(markdownPath, encoding="utf8") as file:
 
     server.send_message(msg)
 
-with open("values.json","w") as data:
+with open(jsonFilePath,"w") as data:
     json.dump(d,data)
