@@ -18,7 +18,3 @@ Then it randomly selects one of these locations and it emails all the content fr
 ### Scheduling daily emails
 
 The program is best used with windows task [scheduler](https://www.windowscentral.com/how-create-automated-task-using-task-scheduler-windows-10) and to specifically schedule python files see [here](https://stackoverflow.com/questions/44727232/scheduling-a-py-file-on-task-scheduler-in-windows-10)
-
-### Show your support
-
-Follow me on Twitter [@iamshabbs15](https://twitter.com/iamshabbs15), for updates, you can contact me there as well
